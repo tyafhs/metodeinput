@@ -1,0 +1,8 @@
+import javax.swing.JOptionPane;
+
+public class metodeinput3 {
+    public static void main(String[] args) {
+        String Nama = "";
+        Nama = JOptionPane.showInputDialog("Silahkan Masukkan Nama Anda : ");
+        String msg = "Hai " +Nama+ "!";
+        JOptionPane.showMessageDialog (null, msg);
